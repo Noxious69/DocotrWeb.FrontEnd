@@ -5,28 +5,29 @@
 @import "reset-bootstrap.css";
 
 body {
-  
   overflow-y: scroll;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   font-family: IRANSans, sans-serif !important;
   background: #fff;
   color: #111;
   font-size: 15px;
   direction: rtl;
   text-align: right;
+  margin: 0 ;
+  padding: 0 ;
 }
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin: 0 ;
+  padding: 0 ;
   outline: none !important;
 }
 
 :root {
   --dwhite: #b2b2b2;
   --white: #f2f2f2;
-  --bs-tooltip-bg: #6117ff;
+  /* --bs-tooltip-bg: #6117ff; */
 
   --colorMain: #846db5;
   --colorMainRGB: 132, 109, 181;
@@ -40,10 +41,33 @@ body {
   --animate-delay: 0.5s;
 }
 .custom-tooltip {
-  
-  /* --bs-tooltip-bg: var(--bd-violet-bg);
-  --bs-tooltip-color: var(--bs-white); */
+  font-size: 20px;
+  font-family: IRANSans, sans-serif !important;
+  --bs-tooltip-bg: var(--bs-indigo);
 }
+@media only screen and (max-width: 600px) {
+  body {
+    .tooltiip{
+      display: none;
+    }
+  }
+}
+
+.main-nav-bottom-btn{
+
+  background-color: var(--colorMain);
+  color: white;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    .show-sm{
+      display: none;
+      visibility: hidden;
+    }
+  }
+}
+
 
 ::-moz-selection {
   color: #fff;
@@ -2519,3 +2543,50 @@ button.owl-dot.active {
 /* .fab-corner:hover{
   animation: SlideLeft 1s ease 0s 1 normal none;
 } */
+
+
+.card  {
+  margin : 0 !important;
+}
+.hero-section {
+  margin: 0 !important;
+}
+
+.video-player video {
+  width: 33% !important;
+  margin: 5;
+}
+
+.doctors-carousel {
+  padding: 0 25px !important;
+}
+
+.doctor-item {
+  padding-top: 15px;
+}
+
+.footer-logo {
+  max-width: 135px;
+}
+
+
+
+.down-arrow-post {
+  z-index: 150;
+ 
+  /* left: calc(50% - 14px); */
+ 
+  color: rgb(255, 255, 255);
+  animation: fade_move_down 1.5s infinite;
+}
+
+
+
+
+
+
+
+
+
+
+

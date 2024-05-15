@@ -27,29 +27,6 @@
     <link rel="stylesheet" href="css/style-swiper.css">
     <link rel="stylesheet" href="css/font-swiper.css">
 
-    <style>
-      .hero-section {
-            margin: 0 !important;
-        }
-
-        .video-player video {
-            width: 33% !important;
-            margin: 5;
-        }
-
-        .doctors-carousel {
-            padding: 0 25px !important;
-        }
-
-        .doctor-item {
-            padding-top: 15px;
-        }
-
-        .footer-logo {
-            max-width: 135px;
-        }
-    </style>
-
   </head>
   <body>
     <main>
@@ -427,7 +404,7 @@
       <!-- =============== end of about section ================== -->
 
       <!-- =============== begin of dark section ================== -->
-      <div class="container-fluid dark-section">
+      <div class="container-fluid dark-section mt-4">
         <div class="container">
           <div class="row">
             <div class="col">
@@ -462,12 +439,12 @@
       <!-- =============== end of dark section ==================== -->
 
       <!-- =============== begin of checkboxes section =============== -->
-      <div class="container-fluid checkboxes-bg">
+      <div class="container-fluid checkboxes-bg mt-4">
         <div class="container">
           <div class="row">
             <div class="col-12 wow fadeInUp">
 
-              <div class="dotty-title mb-4">
+              <div class="dotty-title mb-5">
                 <img src="images/dots_shape_sm.png" alt="shape" />
                 <div class="titles">
                   <span class="up-title fw-800 font-24 font-sm-20"
@@ -481,51 +458,53 @@
         </div>
       </div>
       
-      <div class="container-fluid mb-5" style="margin-top: 150px">
+
+      <div class="container-fluid mb-5 " style="margin-top: 150px">
         <div class="container ">
-          <div class="row ">
+            <div class="row ">
+              <div data-wow-delay="500ms" class="mt-3 wow fadeInUp card col">
+                <div class="card-body">
+                  <div class="video-player embed-responsive embed-responsive-1by1 row">
 
-            <div data-wow-delay="500ms" class="mt-3 wow fadeInUp card col">
-              <div class="card-body">
-                <div class="video-player embed-responsive embed-responsive-1by1">
-                  <video class="clip" controls poster="images/poster.jpg">
-                    <source src="images/video.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                      <video class="clip" controls poster="images/poster.jpg">
+                        <source src="images/video.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                      </video>
+                    
+                      <video class="clip" controls poster="images/poster.jpg">
+                        <source src="images/video.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                      </video>
+                      
+                    
+                      <video class="clip" controls poster="images/poster.jpg">
+                        <source src="images/video.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                      </video>
 
-                  <video class="clip" controls poster="images/poster.jpg">
-                    <source src="images/video.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
-
-                  <video class="clip" controls poster="images/poster.jpg">
-                    <source src="images/video.mp4" type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
-
+                  </div>
+                </div>
+                <div class="card-footer up-title fw-800 font-24 font-sm-20">
+                  <a class="link" href="#">بیشتر</a>    
                 </div>
               </div>
-              <div class="card-footer up-title fw-800 font-24 font-sm-20">
-                <a class="link" href="#">بیشتر</a>    
-              </div>
             </div>
-                
-          </div>
+
         </div>
-
-        
-
     </div>
+
       <!-- =============== end of checkboxes section ================= -->
 
       <!-- =============== begin of posts section =============== -->
-      <div class="container-fluid mb-5 posts-bg">
+      
+      <div class="container-fluid mb-5 posts-bg blog-posts-bg" style="background: var(--colorMain);">
         <div class="container">
           <div class="row">
             <div class="col-12 mb-5">
-              <div class="posts-area-title">
+              <div class="posts-area-title row">
                 <div class="title">تازه‌های پزشکی</div>
-                <a href="#" class="link">بیشتر بخوانید</a>
+                <a href="#" class="link mb-3">بیشتر بخوانید</a>
+                  <div class="down-arrow-post font-30 icon-arrow-down-circle"></div>
               </div>
             </div>
             <div class="col " style="border-radius: 35px">
@@ -686,6 +665,8 @@
           </div>
         </div>
       </div>
+
+      
       <!-- =============== end of posts section ================= -->
 
       <!-- =============== begin of Footer =============== -->
@@ -742,11 +723,35 @@
           </div>
         </div>
       </div>
+   
       <!-- =============== end of Footer ================= -->
+
+<!-- =============== begin of bottom navigation section =============== -->
+
+      <nav  class="row p-4 navbar shadow-lg navbar-expand-sm sticky-bottom navbar-light bg-light show-sm ">
+
+        <div class="col-auto px-2 border border-start-0 border-top-0 border-bottom-0  d-block icon-phone text-center font-30" style="color: var(--colorMain);">
+          <a class="btn mx-1 text-center navbar-brand d-block text-center" style="font-family: IRANSans, sans-serif !important;" href="#">ثبت نوبت
+          </a>
+        </div>
+
+
+        <div class="col-auto px-2 d-block icon-home text-center font-30" style="color: var(--colorMain);">
+          <a class="btn mx-1 text-center navbar-brand d-block text-center" style="font-family: IRANSans, sans-serif !important;" href="#">خانه</a>
+        </div>
+
+        <div class="col-auto px-2 border border-end-0 border-top-0 border-bottom-0  d-block iconly-Profile text-center font-30" style="color: var(--colorMain);">
+          <a class="btn mx-1 text-center navbar-brand d-block text-center" style="font-family: IRANSans, sans-serif !important;" href="#">ورود به حساب</a>
+        </div>
+
+      </nav>
+
     </main>
+<!-- =============== end of bottom navigation section =============== -->
+
 
 <!-- =============== begin of floating button section =============== -->
-<div class="container d-md-block d-sm-none row">
+<div class="container d-md-block d-sm-none row tooltiip">
   <a
     href="#"
     type="button"
@@ -754,7 +759,7 @@
     data-bs-custom-class="custom-tooltip"
     data-bs-toggle="tooltip"
     data-bs-placement="left"
-    data-bs-title="برای ثبت نوبت کلیک کنید"
+    data-bs-title="برای ثبت نوبت کلیک کنید 09214550069"
   >
     <span class="iconly-el iconlyBulk-Calling font-30"
       ><span class="path1"></span><span class="path2"></span
