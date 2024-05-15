@@ -1,0 +1,64 @@
+.btn-primary{
+    --bs-btn-bg: var(--colorMain);
+    --bs-btn-border-color: var(--colorMain);
+    --bs-btn-hover-bg: var(--colorMain);
+    --bs-btn-hover-border-color: var(--colorMain);
+    --bs-btn-active-bg: var(--colorMain);
+    --bs-btn-active-border-color: var(--colorMain);
+    --bs-btn-disabled-bg: var(--colorMain);
+    --bs-btn-disabled-border-color: var(--colorMain);
+}
+.btn-outline-primary {
+    --bs-btn-color: var(--colorMain);
+    --bs-btn-border-color: var(--colorMain);
+    --bs-btn-hover-bg: var(--colorMain);
+    --bs-btn-hover-border-color: var(--colorMain);
+    --bs-btn-active-bg: var(--colorMain);
+    --bs-btn-active-border-color: var(--colorMain);
+    --bs-btn-disabled-color: var(--colorMain);
+    --bs-btn-disabled-border-color: var(--colorMain);
+}
+
+.btn-secondary {
+    --bs-btn-bg: var(--colorSecondary);
+    --bs-btn-border-color: var(--colorSecondary);
+    --bs-btn-hover-bg:  var(--colorSecondary);
+    --bs-btn-hover-border-color: var(--colorSecondary);
+    --bs-btn-active-bg:  var(--colorSecondary);
+    --bs-btn-active-border-color: var(--colorSecondary);
+    --bs-btn-disabled-bg: var(--colorSecondary);
+    --bs-btn-disabled-border-color: var(--colorSecondary);
+}
+
+.btn-outline-secondary {
+    --bs-btn-color: var(--colorSecondary);
+    --bs-btn-border-color: var(--colorSecondary);
+    --bs-btn-hover-bg: var(--colorSecondary);
+    --bs-btn-hover-border-color: var(--colorSecondary);
+    --bs-btn-active-bg: var(--colorSecondary);
+    --bs-btn-active-border-color: var(--colorSecondary);
+    --bs-btn-disabled-color: var(--colorSecondary);
+    --bs-btn-disabled-border-color: var(--colorSecondary);
+}
+
+.tooltip {
+    --bs-tooltip-opacity: 1;
+    opacity: 1;
+}
+
+.form-check-input:checked{
+    background-color: var(--colorMain)!important;
+    border-color: var(--colorMain)!important;
+}
+
+.form-check-input:focus{
+    border-color: #ddd!important;
+    box-shadow: 0 0 0 0.25rem rgba(0,0,0,0.1)!important;
+}
+.modal-content {
+    border: none;
+    border-radius: 5px;
+}
+.modal {
+    background: rgba(var(--colorMainRGB), 0.7);
+}
