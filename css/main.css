@@ -2580,13 +2580,36 @@ button.owl-dot.active {
   animation: fade_move_down 1.5s infinite;
 }
 
+.video-player{
+  width: 90vw;
+}
 
-
-
-
-
-
-
+.flex-container{
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .video-player{
+    width: 190vw;
+  }
+  .post-parent {
+    width: 69vw;
+  }
+}
+@media (max-width: 1024px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .video-player{
+    width: 190vw;
+  }
+  .post-parent {
+    width: 69vw;
+  }
+}
 
 
 
