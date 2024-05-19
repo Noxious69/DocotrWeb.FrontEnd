@@ -2556,6 +2556,10 @@ button.owl-dot.active {
   width: 33% !important;
   margin: 5;
 }
+.video-player-index video {
+  width: 33% !important;
+  margin: 5;
+}
 
 .doctors-carousel {
   padding: 0 25px !important;
@@ -2583,6 +2587,7 @@ button.owl-dot.active {
 .video-player{
   width: 90vw;
 }
+
 
 .flex-container{
   display: flex;

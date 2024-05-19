@@ -47,6 +47,7 @@ body article {
   height: 100%;
   padding: 50px 20px;
   overflow: visible;
+  overflow-x: hidden;
 }
 
 .swiper .parallax-bg {
